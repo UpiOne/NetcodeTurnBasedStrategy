@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3701891040243a2b229768c53f64ee8, type: 3}
+  m_Name: DefaultMap
+  m_EditorClassIdentifier: 
+  gridWidth: 20
+  gridHeight: 20
+  obstacleTypes:
+  - {fileID: 11400000, guid: 60918ddcb3ca12e4a97aa0e31e913db9, type: 2}
+  - {fileID: 11400000, guid: 8d83c1715f9360c44bc8a191dc54be43, type: 2}
+  obstacleZone:
+    x: 6
+    y: 1
+    width: 8
+    height: 18
+  playerSpawns:
+  - playerId: 1
+    startingArmy:
+    - {fileID: 11400000, guid: 62cc5a4ba93d6a64e8ab227ae946d1eb, type: 2}
+    - {fileID: 11400000, guid: 68634ccfd29ca0a408534167346c0671, type: 2}
+    spawnZone:
+      x: 1
+      y: 4
+      width: 4
+      height: 12
+  - playerId: 2
+    startingArmy:
+    - {fileID: 11400000, guid: 62cc5a4ba93d6a64e8ab227ae946d1eb, type: 2}
+    - {fileID: 11400000, guid: 68634ccfd29ca0a408534167346c0671, type: 2}
+    spawnZone:
+      x: 15
+      y: 4
+      width: 4
+      height: 12
